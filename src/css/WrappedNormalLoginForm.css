@@ -1,0 +1,33 @@
+.login-form {
+    width: 368px;
+}
+
+.login-form-forgot {
+    float: right;
+}
+
+ .login-form-button {
+    width: 100%;
+}
+.login-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url("../img/bg.jpg");
+    background-size: cover;
+}
+.login-box .login-title{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.login-form-box{
+    display: flex;
+    justify-content: space-between;
+    color: #1890ff;
+}
